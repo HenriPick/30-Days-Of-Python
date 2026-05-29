@@ -6,7 +6,7 @@ Welcome to my independent study project! This repository documents my daily jour
 
 | Day | Topic | What I Learned / Built | Link to Code |
 | :--- | :--- | :--- | :--- |
-| 1 | Environment Setup & Basics | Configured VS Code, synced GitHub, and practiced basic syntax using Python Indent. | [Day 1 Code](./Day_01/) |
+| 1 | Environment Setup & Basics | Configured VS Code, synced GitHub, and practiced basic syntax using Python Indent. | [Day 1 Code](./Day%201/exercise.py) |
 
 ---
 
