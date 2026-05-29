@@ -68,3 +68,33 @@ my_dict = {
 }
 """
 
+mydict = {
+    "name": "John",
+    "age": 30
+}
+
+print(mydict)
+
+"""
+tuple: A collection of different data types that are ordered and unchangeable. Tuples are written with round brackets ().
+example: (1, 2, 3, 'hello', True)
+you can not change the values of a tuple once it is created, but you can access the values using indexing (0, 1, 2, etc.)
+"""
+
+mytuple = (1, 2, 3, "hello", True)
+print(mytuple)
+
+"""
+A set is a collection of data types similar to list and tuple.
+Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+"""
+
+myset = {1, 2 , 3, 4, 4, 5} #this is not a list or tuple because it is not ordered and does not allow duplicates
+print(myset)
+#if there are duplicate items in a set, only one of them will be stored. In this case, the number 4 is duplicated,
+# so only one 4 will be stored in the set.
+
+#to check the data type of a variable, we can use the type() function
+
+print(type(x)) #this will print <class 'int'> because x is an integer
+
