@@ -1,6 +1,6 @@
 # 🐍 30 Days of Python Challenge
 
-Welcome to my independent study project! This repository documents my daily journey learning Python programming from scratch. 
+Welcome to my independent study project! This repository tracks my progress through the [30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python) curriculum by Asabeneh Oyeniwin. All code, notes, and exercises here are written by me as part of my independent study.
 
 ## 📊 Progress Tracker
 
