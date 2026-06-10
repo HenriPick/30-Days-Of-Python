@@ -74,9 +74,73 @@ print(fruits)
 
 
 
-#adding items to a list, to do this we use the append() function
+#checking if an item is in a list with in operator
+print('apple' in fruits)
+print('carrot' in fruits)
+
+
+
+#adding items to a list, to do this we use the append() function to add something at the END of a list
 fruits.append('kiwi')
 print(fruits)
 
 
 
+#inserting items into a list : .insert(index, item) the item currently in that index gets pushed to 1 index higher
+
+my_list = [10, 20, 30, 40]
+print(my_list)
+my_list.insert(2, 25)  # Inserting 25 at index 2
+print(my_list)
+
+
+
+#Removing items from a list : .remove(item) only removes first occurenco of an item
+
+fruits = ['banana', 'orange', 'mango', 'lemon', 'banana']
+fruits.remove('banana')
+print(fruits)  #this method removes the first occurrence of the item in the list
+fruits.remove('lemon')
+print(fruits)  # ['orange', 'mango', 'banana']
+
+
+
+#removing items using the .pop(index) funcion, if index is unspecified removes last item of the list
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.pop()
+print(fruits)
+
+fruits.pop(0)
+print(fruits)
+
+
+
+#just small experiment i wanted to test out not linked with course
+size = 8
+
+for i in range(size // 2):
+    print('□■' * (size // 2))
+    print('■□' * (size // 2))
+    
+    
+    
+#removing items using .del[index] or remove [] and leave index blank to delete entire list, 
+#also you can give range such as 1:3 (3 will be excluded)
+
+fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+print(fruits)
+del fruits[1]
+print(fruits)       
+del fruits[1:3]    
+print(fruits)      
+del fruits
+#print(fruits)   this would return NameError : name 'fruits' is not defined   
+
+
+
+#clearing a list with .clear()
+
+fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+fruits.clear()
+print(fruits) #returns empty list
