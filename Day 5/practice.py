@@ -144,3 +144,63 @@ del fruits
 fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
 fruits.clear()
 print(fruits) #returns empty list
+
+
+
+#copying a list with .copy()
+fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+fruits_2 = fruits.copy()
+print(fruits)
+print(fruits_2)
+
+
+
+#joining lists with + or .extent()
+
+#+ operator
+fruits = ['apple', 'banana']
+vegetables = ['carrot', 'brocoli']
+fruits_and_vegetables = fruits + vegetables
+print(fruits_and_vegetables)
+
+#.extend(list) method add list at the end of another list
+num_1 = [1, 2, 3]
+num_2 = [4, 5, 6]
+num_1.extend(num_2)
+print(num_1)
+
+
+
+#counting items in a list with .count(item)
+numbers = [1, 2, 2, 3, 3, 3]
+print(numbers.count(1))
+print(numbers.count(2))
+print(numbers.count(3))
+
+
+
+#finding index of a item in a list with .index(item), will return first occurence of item
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('orange'))
+
+
+
+#reversing a list with .reverse()
+numbers = [1, 2, 3, 4, 5, 6]
+numbers.reverse()
+print(numbers)
+
+
+
+#sorting a list with .sort(), empty is ascending and .sort(reverse=True) is descending
+letters = ['b', 'c', 'a']
+print(letters)
+letters.sort() #will sort alphabetically
+print(letters)
+letters.sort(reverse=True)#descending (z to a)
+print(letters)
+
+# sorted() returns a sorted list without modifying the original
+numbers = [3, 4, 1, 2]
+print(sorted(numbers))
+print(numbers)
