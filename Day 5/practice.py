@@ -125,7 +125,7 @@ for i in range(size // 2):
     
     
     
-#removing items using .del[index] or remove [] and leave index blank to delete entire list, 
+#removing items using del [index] or remove [] and leave index blank to delete entire list, 
 #also you can give range such as 1:3 (3 will be excluded)
 
 fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
