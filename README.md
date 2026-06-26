@@ -12,6 +12,7 @@ Welcome to my independent study project! This repository tracks my progress thro
 | 4 | String & Data Types Basics | Learned about string manipulation, indexing, and basic data types while practicing with foundational exercises. | [Day 4 Code](./Day%204/exercise.py) |
 | 5 | Lists | Learned about lists, their properties and built in functions | [Day 5 Code](./Day%205/exercise.py) |
 | 6 | Tuples | Learned about Tuples, their properties and built in functions | [Day 6 Code](./Day%206/exercise.py) |
+| 7 | Sets | Learned about Sets, their properties and built in functions | [Day 7 Code](./Day%207/exercise.py) |
 ---
 
 Small note : Practice files are basically just experimenting and taking notes and Exercise files are exercises from "30-Days-Of-Python"
