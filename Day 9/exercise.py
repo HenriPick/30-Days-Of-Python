@@ -40,4 +40,22 @@ elif a < b:
     print('A is smaller than B')
 else:
     print('A is equal to B')
+
+while True:
+    try:
+        test_score = float(input('Input your test score:'))
+        break
+    except ValueError:
+        print('Enter a valid test score')
+        
+if test_score >= 90:
+    print('You got an A')
+elif test_score >= 80:
+    print('You got a B')
+elif test_score >=70:
+    print('You got a C')
+elif test_score >= 60:
+    print('You got a D')
+else:
+    print('You got a F and failed ')
     
