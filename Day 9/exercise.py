@@ -58,4 +58,55 @@ elif test_score >= 60:
     print('You got a D')
 else:
     print('You got a F and failed ')
+
+while True: #checks if month is valid and if not asks you to reinput month
+    month = input('Chose a month: ').lower() #.lower is just to deal with if the user put an uppercase or not
+    if month in ['september', 'october', 'november', 'december', 'january', 'febuary', 'march', 'april', 'may', 'june', 'july', 'august']:
+        if month in ['september', 'october', 'november']:
+            print(f'The month {month} is in autumn')
+        elif month in ['december', 'january', 'febuary']:
+            print(f'The month {month} is in winter')
+        elif month in ['march', 'april', 'may']:
+            print(f'The month {month} is in spring')
+        else:
+            print(f'The month {month} is in summer')
+        break
+    else:
+        print('invalid month, please ensure you typed it propperly')
+        
+fruits = ['banana', 'orange', 'mango', 'lemon']
+new_fruit = input('Enter a fruit to add to the list: ').lower()
+if new_fruit in fruits:
+    print('That fruit already exist in the list')
+else:
+    fruits.append(new_fruit)
+    print(fruits)
     
+    person = {
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_married': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+    }
+    
+    if 'skills' in person:
+        skills_list = person['skills']
+        print(skills_list[len(skills_list)//2])
+        if 'Python' in skills_list:
+            print(f'{person["first_name"]}knows Python')
+        if 'JavaScript' in skills_list and 'React' in skills_list and len(skills_list) == 2:
+            print('He is a front end developer')
+        elif 'React' in skills_list and 'Node' in skills_list and 'MongoDB' in skills_list:
+            print('He is a fullstack developer')
+        elif 'Python' in skills_list and 'Node' in skills_list and 'MongoDB' in skills_list:
+            print('He is a backend developer')
+        else:
+            print('unknown title')
+    if person['is_married'] and person['country'] == 'Finland':
+        print(f'{person['first_name']}{person['last_name']} lives in {person['country']} and he is married')
