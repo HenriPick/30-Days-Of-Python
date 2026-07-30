@@ -112,7 +112,7 @@ for key in person:
             
 #you can also use else if you want something to be done at the end of a for loop
 
-for number in renge(5):
+for number in range(5):
     print(number)
 else:
     print('The loop is finished!')
