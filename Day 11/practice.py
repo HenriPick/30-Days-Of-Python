@@ -80,7 +80,7 @@ greet(**my_dict)
 # as keyword arguments to the function.
 # Output: Hi there Alice how is the weather in New York
 
-#we can also have an arbitrary number of named arguments but we should avoit this because it causes confusion on what the function actually does
+#we can also have an arbitrary number of named arguments with **args as an argument but we should avoit this because it causes confusion on what the function actually does
 
 #finally we can use functions as arguments for other functions
 
