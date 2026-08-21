@@ -131,3 +131,63 @@ def sum_of_even(a):
     return total
 
 print(sum_of_even(5))
+
+
+def evens_and_odds(a):
+    even = 0
+    odds = 0
+    if isinstance(a, int) and a >= 0:
+        for i in range(a + 1):
+            if i % 2 == 0:
+                even += 1
+            else:
+                odds += 1
+        return even, odds
+    else:
+        return('Please input a positive integer')
+    
+print(evens_and_odds(100))
+
+
+def factorial(a):
+    if isinstance(a, int):
+        total = 1
+        for i in range(1, a + 1):
+            total *= i
+        return total
+    else:
+        return ('please enter a whole number')
+    
+print(factorial(5))
+
+
+def is_empty(a):
+    if not a and isinstance(a, (str, list, dict, tuple)):
+        return(f'This {type(a).__name__} is empty')
+    
+print(is_empty(''))
+
+
+def calculate_mean(data):
+    sum(data) / len(data)
+    
+def calculate_median(data):
+    data_sorted = sorted(data)
+    if len(data) % 2 == 0:
+        return (data_sorted[len(data)//2 -1] + data_sorted[len(data)//2]) / 2
+    else:
+        return data_sorted[len(data)//2]
+    
+
+def calculate_mode(data):
+    y = {}
+    for i in data:
+        if i not in y:
+            y[i] = 1
+        else:
+            y[i] += 1
+    return max(y, key=y.get)
+
+
+def calculate_range(data):
+    return max(data)-min(data)
