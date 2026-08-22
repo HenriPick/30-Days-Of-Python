@@ -16,6 +16,7 @@ Welcome to my independent study project! This repository tracks my progress thro
 | 8 | Dictionaries | Learned about Dictionaries, their properties and built in functions | [Day 8 Code](./Day%208/exercise.py) |
 | 9 | Conditionals | Learned about Conditionals and how to use them | [Day 9 Code](./Day%209/exercise.py) |
 | 10 | Loops | Learned about loops and how to use them | [Day 10 Code](./Day%2010/exercise.py) |
+| 11 | Functions | Learned how to define functions and ways to use them | [Day 11 Code](./Day%2011/exercise.py)
 ---
 
 Small note : Practice files are basically just experimenting and taking notes and Exercise files are exercises from "30-Days-Of-Python"
